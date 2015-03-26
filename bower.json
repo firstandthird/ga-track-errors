@@ -1,0 +1,27 @@
+{
+  "name": "ga-track-errors",
+  "version": "0.0.0",
+  "homepage": "https://github.com/firstandthird/ga-track-errors",
+  "authors": [
+    "Eric Willis <eric@ecwillis.com>"
+  ],
+  "description": "A google anayltics error tracking library",
+  "main": "dist/ga-track-errors.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "*",
+    "ga-track": "*"
+  },
+  "devDependencies": {
+    "assert": "*",
+    "blanket": "*"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
