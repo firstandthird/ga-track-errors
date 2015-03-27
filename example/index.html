@@ -3,8 +3,7 @@
   <head>
     <title></title>
     <script src="../bower_components/jquery/dist/jquery.js"></script>
-    <script src="../bower_components/ga-track/dist/ga-track.js"></script>
-    <script src="../dist/ga-track-errors.full.js"></script>
+    <script src="../dist/ga-track-errors.js"></script>
     <script type="text/javascript">
       //set debug
       $.gaTrack.debug = true;
@@ -18,11 +17,13 @@
   </head>
   <body>
     <div id="module1">
-      <h3>This is the ga-track-fold module</h1>
+      <h3>This is the ga-track-errors module</h1>
     </div>
 
     <script>
-      var err = nice + 1;
+      setTimeout(function() {
+        var err = nice + 1;
+      }, 1000);
     </script>
   </body>
 </html>
